@@ -90,11 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -361,6 +356,13 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+.tangerine-back{
+    background-color: rgb(243 151 108 / 90%);
+    padding: 20px;
+    border-radius: 50px;
+}
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -779,8 +781,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #333333;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine:hover {
