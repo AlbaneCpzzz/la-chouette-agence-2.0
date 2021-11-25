@@ -652,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -714,7 +714,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: black!important;
 }
 
 .med-width-whitespace {
@@ -724,11 +724,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: black!important;
 }
 
 .icons {
@@ -780,7 +780,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #333333;
+    background: black;
     color: #F3976C!important;
 }
 
@@ -812,18 +812,26 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.avif");
+    width: 100%;
+    object-fit: cover;
 }
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.avif");
+    width: 100%;
+    object-fit: cover;
 }
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.avif");
+    width: 100%;
+    object-fit: cover;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.avif");
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (max-width: 1024px) {
